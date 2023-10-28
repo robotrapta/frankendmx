@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "frank"
+version = "0.1.0"
+description = "halloween frankenstein control"
+authors = ["Leo Dirac <leo@groundlight.ai>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydmxcontrol = "^2.0.0"
+groundlight = "^0.12.1"
+framegrab = "^0.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
