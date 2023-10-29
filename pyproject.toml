@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "frank"
+name = "frankendmx"
 version = "0.1.0"
 description = "halloween frankenstein control"
 authors = ["Leo Dirac <leo@groundlight.ai>"]
@@ -11,6 +11,7 @@ python = "^3.8"
 pydmxcontrol = "^2.0.0"
 groundlight = "^0.12.1"
 framegrab = "^0.4.1"
+flask = "2.2.4"
 
 
 [build-system]
